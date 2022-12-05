@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Stats preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    @font-face {
+                font-family: inter;
+                src: url(./static/Inter-Bold.ttf);
+                
+            }
+            @font-face {
+                font-family: lexend;
+                src: url(LexendDeca-VariableFont_wght.ttf);
+            }
+            body{
+                background-color: hsl(233, 47%, 7%);
+            }
+            .card{
+                background-color: hsl(244, 38%, 16%);
+                margin: 7%;
+                border-radius: 10px;
+            }
+            .img{
+                float: right;
+                margin-top: -250px;
+                
+            }
+            .img img{
+                border-bottom-right-radius: 10px;
+                border-top-right-radius: 10px;
+            }
+            .heading{
+                width: 50%;
+                font-size: 30px;
+                font-family: inter;
+                padding-top: 60px;
+                padding-left: 50px;
+                color: hsl(0, 0%, 100%);
+            }
+            .heading span{
+                color: hsl(277, 64%, 61%);
+            }
+            .title{
+                width: 50%;
+                padding-top: 40px;
+                padding-left: 50px;
+                font-size: 20px;
+                color: hsla(0, 0%, 100%, 0.75);
+                font-family: lexend;
+            }
+            .status{
+                display: inline-block;
+                padding-top: 50px;
+                padding-bottom: 70px;
+                padding-left: 50px;
+                font-family: lexend;
+                color: hsl(0, 0%, 100%);
+            }
+            .status p{
+                padding-bottom: 0%;
+                margin-bottom: 0%;
+                font-size: 25px;
+                font-weight: bold;
+                color: hsla(0, 0%, 100%, 0.6);
+                font-family: inter;
+            }
+  </style>
+</head>
+<body>
+    <div class="card">
+        <div class="heading">
+            Get <span>insights </span>that help <br> your business grow.
+          </div>
+          <div class="title">
+            Discover the benefits of data analytics and make <br> better decisions regarding revenue, customer <br>
+            experience, and overall efficiency.
+          </div>
+          <div class="status">
+          <p>10k+</p>  
+            companies
+          </div>
+          <div class="status">
+            <p>314</p>
+            templates
+        </div>
+        <div class="status">
+           <p>12m+</p>  
+           queries
+        </div>
+
+        <div class="img">
+            <img src="../images/image-header-desktop.jpg" alt="image">
+        </div>
+    </div>
+ 
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Abenezer Tesfaye</a>.
+  </div>
+</body>
+</html>
